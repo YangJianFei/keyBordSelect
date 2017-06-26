@@ -1,5 +1,7 @@
 /**
- *
+ * keyBordSelect v1.0.0
+ * MIT License
+ * for more info pls visit :https://github.com/YangJianFei/keyBordSelect
  */
 /*
 .selectContain{

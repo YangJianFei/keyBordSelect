@@ -11,7 +11,8 @@
         box-sizing:border-box;
     }
     .row{
-        max-width: 500px;;
+        max-width: 500px;
+        margin:50 auto;
     }
     .selectInput{
         display: block;
@@ -64,5 +65,8 @@
         <p class="selectSingle">选项6</p>
     </div>
 </div>
+<script type="text/javascript">
+   $(".selectInput").keyBordSelect({'selectsContain':'selectContain','selectsChild':'selectSingle','selectActive':'selectActive'});
+</script>
 </body>
 </html>

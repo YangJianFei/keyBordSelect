@@ -1,0 +1,35 @@
+{
+    "name": "keyBordSelect",
+    "title": "KeyBordSelect",
+    "description": "Select options by keybord direction key as same as BaiDu",
+    "keywords": [
+        "keybord",
+        "select",
+        "direction",
+        "option",
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "yangjianfei",
+        "email": "phildayang@gmail.com",
+        "url": "https://github.com/YangJianFei"
+    },
+    "maintainers": [
+        {
+            "name": "yangjianfei",
+            "email": "phildayang@gmail.com",
+            "url": "https://github.com/YangJianFei"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/YangJianFei/keyBordSelect/issues",
+    "homepage": "http://YangJianFei.github.io/keyBordSelect/",
+    "docs": "http://YangJianFei.github.io/keyBordSelect/",
+    "demo":"http://YangJianFei.github.io/keyBordSelect/",
+    "download": "https://github.com/YangJianFei/keyBordSelect"
+}

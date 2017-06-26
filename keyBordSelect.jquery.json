@@ -31,5 +31,8 @@
     "homepage": "http://YangJianFei.github.io/keyBordSelect/",
     "docs": "http://YangJianFei.github.io/keyBordSelect/",
     "demo":"http://YangJianFei.github.io/keyBordSelect/",
-    "download": "https://github.com/YangJianFei/keyBordSelect"
+    "download": "https://github.com/YangJianFei/keyBordSelect",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
 }

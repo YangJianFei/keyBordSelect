@@ -45,7 +45,7 @@
             //响应键盘事件
             thisSearchDrop.$element.on('keyup', function (e) {//响应键盘按下事件
                 if (e.keyCode == 13) {//enter
-
+                    thisSearchDrop.enter(thisSearchDrop,this);
                 } else if (e.keyCode == 40) {//down
                     thisSearchDrop.down(thisSearchDrop);
                 } else if (e.keyCode == 38) {//up
@@ -67,6 +67,7 @@
             //响应选项点击事件
             thisSearchDrop.$element.parent().find('.' + thisSearchDrop.options.selectsContain).on('click', '.' + thisSearchDrop.options.selectsChild, function () {
                 thisSearchDrop.hideSelectAll(thisSearchDrop);
+                thisSearchDrop.$element.val($(this).text());
             });
         },
         down: function (instance) {//选中选项下移
@@ -103,8 +104,9 @@
                 instance.$element.val($selAll.find('.' + selectsChild + ':last-child').addClass(activeClass).text());
             }
         },
-        enter: function () {//键盘回车
-
+        enter: function (instance,_sel) {//键盘回车
+            instance.hideSelectAll(instance);
+            instance.$element.val($(_sel).text());
         },
         setInputValue: function (instance, value) {//设置输入框输入值
             instance.inputValue = value;
